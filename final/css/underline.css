@@ -1,0 +1,50 @@
+ubody *{
+  box-sizing: border-box;
+}
+
+ubody {
+  font: 300 100% 'Helvetica Neue', Helvetica, Arial;
+}
+
+.u-container {
+  margin: 0 auto;
+  padding-left: 40%;
+}
+
+.u-li {
+  display: inline;
+  text-align: center;
+}
+
+.u-a {
+  display: inline-block;
+  width: 48%;
+  padding: .75rem 0;
+  margin: 0;
+  text-decoration: none;
+  color: #333;
+}
+
+.two:hover ~ hr {
+  margin-left: 50%;
+}
+.new-glyph{
+  color: white;
+}
+.btn-new{
+  background-color: #222222;
+  margin-left: .5em;
+  margin-right: .5em;
+}
+
+hr {
+  height: .25rem;
+  width: 50%;
+  margin: 0;
+  background: #bfbfbf;
+  border: none;
+  transition: .3s ease-in-out;
+}
+.style18{
+  margin-bottom: 2em;
+}

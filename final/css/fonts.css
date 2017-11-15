@@ -1,0 +1,11 @@
+/** CUSTOM FONTS **/
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+.lato{
+  font-family: 'Lato', sans-serif;
+}
+.playfair{
+  font-family: 'Playfair Display', serif;
+}

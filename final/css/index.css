@@ -1,0 +1,239 @@
+/** CUSTOM FONTS **/
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+body{
+ margin:0px;
+ padding:0px;
+ background:black;
+}
+
+ #logo{
+ width:130px;
+ height:130px;
+ position:relative;
+ bottom:10px;
+ }
+
+ .navbar{
+ height:120px;
+ background:black;
+ }
+ .nav, .navbar-form{
+  position:relative;
+  top:30px;
+  font-family: 'Playfair Display', serif;
+  font-size:12pt;
+  color:#231F20;
+ }
+
+ .btn{
+ background:transparent;
+ border:transparent;
+ }
+ #content{
+ background:black;
+ width:50%;
+ height:50%;
+ }
+ .navbar-nav{
+ text-align: center;
+ }
+ .navbar-toggle{
+ position:relative;
+   top:20px;
+ }
+ .carousel{
+ position:relative;
+ bottom:20px;
+ }
+
+
+/*HOVER
+.panel-body{
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.panel-body:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}*/
+
+.panel-body, .panel, .td ,.tr{
+background:#121212;
+}
+.panel-footer{
+background:#121212;
+}
+
+/*Button*/
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 16px;
+  font-family: 'Playfair Display', serif;
+  font-size:12pt;
+}
+
+.btn-lg {
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+.btn-primary {
+  color: #b98f44;
+  background-color: #1c1b1b;
+  border-color: #1c1b1b;
+
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #AD974F;
+  background-color: #695801;
+  border-color: #1c1b1b;
+
+}
+.sharp {
+  border-radius:0;
+
+}
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-primary {
+    background:#AD974F;/*#998100;*/
+    color: white;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background:white;
+}
+.btn-primary:active, .btn-primary.active {
+    background: black;
+    box-shadow: none;
+}
+
+.btn-space {
+    margin-right: 7px;
+}
+.custom{
+width: 220px !important;
+
+}
+
+.btn-group
+{
+	position:relative;
+	top:10px;
+	bottom:50px;
+	left:25px;
+}
+/*TABLE1*/
+
+.panel-table-container {
+  padding :20px;
+  top:30px;
+  position:relative;
+
+}
+.panel-table td {
+   border-top :#3b3636;
+   top:30%;
+}
+.marg-top{
+  margin-top: 2em;
+}
+.panel-table {
+  height : 300px;
+  width : 100%;
+  top:30%;
+  position:relative;
+
+}
+
+.panel-table .body td {
+	height: 40px;
+  	color : white;
+	background:/*rgb(18, 18, 18); */white;
+	height:300px;
+	top:30%;
+
+}
+#article1{
+	font-family: 'Playfair Display', serif;
+	font-size:20pt;
+	color:gray;
+	text-align:center;
+}
+#cert{
+	background:#eaeaea;
+	width:100%;
+	height:600px;
+	top:100px;
+	position:relative;
+}
+
+.lato{
+  font-family: 'Lato', sans-serif;
+}
+.playfair{
+  font-family: 'Playfair Display', serif;
+}

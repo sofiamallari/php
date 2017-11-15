@@ -1,0 +1,6 @@
+localhost:80
+
+startup C:\Programs\php\php-cgi.exe -b 6545  &
+
+fastcgi / 127.0.0.1:6545 php
+root "C:\Users\Vlad Villanueva\PhpstormProjects\webapp"

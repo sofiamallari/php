@@ -1,0 +1,34 @@
+h1{
+	padding-left:100px;
+	padding-top:50px;
+	font-family: 'Playfair Display', serif;
+}
+.forms{
+	padding-left:100px;
+	padding-top:20px;
+	font-size:1.5em;
+	font-family: 'Playfair Display', serif;
+}
+.submit{
+	background:black;
+	color:white;
+}
+.terms{
+	padding-left:50px;
+	font-size:1.5em;
+	color:#151515;
+		font-family: 'Playfair Display', serif;
+}
+
+h5{
+	font-family: 'Playfair Display', serif;
+	font-size:1.5em;
+	padding-left:100px;
+	padding-top:50px;
+}
+.info{
+	font-family: 'Playfair Display', serif;
+	font-size:1.5em;
+	padding-left:100px;
+	padding-top:50px;
+}

@@ -1,0 +1,77 @@
+ubody *{
+  box-sizing: border-box;
+}
+
+ubody {
+  font: 300 100% 'Helvetica Neue', Helvetica, Arial;
+}
+
+.u-container {
+  margin: 0 auto;
+  padding-left: 40%;
+}
+
+.u-li {
+  display: inline;
+  text-align: center;
+}
+
+.u-a {
+  display: inline-block;
+  width: 48%;
+  padding: .75rem 0;
+  margin: 0;
+  text-decoration: none;
+  color: #333;
+}
+
+.two:hover ~ hr {
+  margin-left: 50%;
+}
+.new-glyph{
+  color: white;
+}
+.btn-new{
+  background-color: #222222;
+  margin-left: .1em;
+  margin-right: .1em;
+}
+
+hr {
+  height: .25rem;
+  width: 50%;
+  margin: 0;
+  background: #bfbfbf;
+  border: none;
+  transition: .3s ease-in-out;
+}
+.style18{
+  margin-bottom: 2em;
+}
+
+/** CUSTOM FONTS **/
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans');
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One');
+@import url('https://fonts.googleapis.com/css?family=Tenor+Sans');
+.tenor{
+	font-family: 'Tenor Sans', sans-serif;
+}
+.lato{
+  font-family: 'Lato', sans-serif;
+}
+.playfair{
+  font-family: 'Playfair Display', serif;
+}
+.crimson{
+	font-family: 'Crimson Text', serif;
+}
+.aleg{
+	font-family: 'Alegreya Sans', sans-serif;
+}
+.julius{
+	font-family: 'Julius Sans One', sans-serif;
+}
